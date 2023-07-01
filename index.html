@@ -9,14 +9,15 @@
     <title>Music Player</title>
 </head>
 <body>
-
+    
+    
     <div class="container">
         <div class="card shadow-lg rounded">
             <img src="" id="banner" class="card-img-top" alt="...">
             <audio id="audio" src=""></audio>
             <div id="music-details" class="text-center border-bottom my-3">
                 <p class="title"></p>
-                <p class="singer">Singer</p>
+                <p class="singer"></p>
             </div>
             
             <div class="card-body">
@@ -52,14 +53,17 @@
                     <div class="volume-container">
                         <i id="volume" class="fa-solid fa-volume-high" style="color: rgb(253, 198, 94);"></i>
                         
-                        <input type="range" id="volume-bar" max="100" value="100" class="form-range"">
+                        <input type="range" id="volume-bar" max="100" value="100" class="form-range">
                     </div>
                 </div>
                 
-                <div id="music-list" class="collapse ">
-                    <ul class="list-group list-group-flush" id="ul-tag">
-                       
-                    </ul>
+                
+                <div class="card-right shadow-lg rounded">
+                    <div id="music-list" class="collapse ">
+                        <ul class="list-group list-group-flush" id="ul-tag">
+                           
+                        </ul>
+                    </div>
                 </div>
     
             

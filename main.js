@@ -14,8 +14,6 @@ const progressBar = document.getElementById("progress-bar");
 const volume = document.getElementById("volume");
 const volumeBar = document.getElementById("volume-bar");
 
-
-
 window.addEventListener("load", () => {
     let music = player.getMusic();
     displayMusic(music);
@@ -171,7 +169,7 @@ const selectMusic = (li) => {
     player.index = li.getAttribute("li-index");    
     displayMusic(player.getMusic());
     playMusic();
-    isPlayingNow();
+    isPlay();
 }
 
 const isPlay = () => {

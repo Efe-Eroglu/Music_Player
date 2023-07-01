@@ -10,7 +10,7 @@ class Music
 }
 
 const musics = [
-    new Music("Example 1","Singer 1","example.jpeg","example.mp3"),
-    new Music("Example 2","Singer 2","example2.jpg","example2.mp3")
-
+    new Music("Bu da Geçer mi Sevgilim","Yalın","banner1.jpeg","music1.mp3"),
+    new Music("Resimdeki Gözyaşları","Cem Karaca","banner2.jpg","music2.mp3"),
+    new Music("Gurbet","Özdemir Erdoğan","banner3.jpg","music3.mp3")
 ];

@@ -1,13 +1,29 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    transition: background-color 1s ease;
 
 }
 
 .container{
     width: 400px;
+    border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background-color: rgb(253, 211, 0);
+
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: rgba(253,211,0);
+    transform: scale(1.1);
 }
 
 .card-footer,.volume-container,.times{
@@ -36,12 +52,32 @@ body{
     color: white;
 }
 
+#play:hover,#prev:hover,#next:hover
+{
+    box-shadow:4px 4px 0px #f6ab2a;
+    top: -5px;;
+    left: -5px;
+}
+
 ul li:hover{
     cursor: pointer;
     transform: scale(1.01);
 }
 
-#buttons:hover{
-    transform: scale(1.1);
+li.playing{
+    background-color: rgb(255, 187, 0);
+    color: whitesmoke;
 }
 
+#buttons:hover{
+    transform: scale(1.05);
+}
+
+.card-right{
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    margin-left: 374px;
+    height: auto;
+    width: 300px;
+}
