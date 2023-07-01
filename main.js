@@ -14,6 +14,15 @@ const progressBar = document.getElementById("progress-bar");
 const volume = document.getElementById("volume");
 const volumeBar = document.getElementById("volume-bar");
 
+
+
+var modeSwitch = document.getElementById("modeSwitch");
+modeSwitch.addEventListener("change", function() {
+  document.body.classList.toggle("dark-mode");
+});
+
+
+
 window.addEventListener("load", () => {
     let music = player.getMusic();
     displayMusic(music);
