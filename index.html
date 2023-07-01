@@ -12,10 +12,10 @@
 
     <div class="container">
         <div class="card shadow-lg rounded">
-            <img src="......" id="banner" class="card-img-top" alt="...">
+            <img src="" id="banner" class="card-img-top" alt="...">
             <audio id="audio" src=""></audio>
             <div id="music-details" class="text-center border-bottom my-3">
-                <p class="title">Title</p>
+                <p class="title"></p>
                 <p class="singer">Singer</p>
             </div>
             
@@ -24,21 +24,21 @@
                     <input type="range" id="progress-bar" class="form-range" value="0">
                     <div class="times">
                         <span id="current-time">0:00</span>
-                        <span id="duration">Duration</span>
+                        <span id="duration"></span>
                     </div>
                 </div>
 
                 <div id="controls" class="text-center">
                     <button id="prev"  class="btn btn-warning rounded-circle">
-                        <i class="fa-solid fa-backward-step" id="buttons"></i>
+                        <i class="fa-solid fa-backward-step"></i>
                     </button>
                 
                     <button id="play" class="btn btn-warning rounded-circle btn-lg mx-2">
-                        <i  class="fa-solid fa-play" id="buttons"></i>
+                        <i  class="fa-solid fa-play"></i>
                     </button>
                 
                     <button id="next" class="btn btn-warning rounded-circle">
-                        <i  class="fa-solid fa-forward-step" id="buttons"></i>
+                        <i  class="fa-solid fa-forward-step"></i>
                     </button>
 
                 </div>
@@ -57,7 +57,7 @@
                 </div>
                 
                 <div id="music-list" class="collapse ">
-                    <ul class="list-group list-group-flush">
+                    <ul class="list-group list-group-flush" id="ul-tag">
                        
                     </ul>
                 </div>
@@ -67,6 +67,9 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="music.js"></script>
+    <script src="player.js"></script>
+    <script src="main.js"></script>
 
 </body>
 </html>

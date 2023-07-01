@@ -20,8 +20,28 @@ body{
     margin-right: 10px;
 }
 
-#buttons{
+#volume:hover{
+    cursor: pointer;
+}
+
+#buttons,.btn{
     color: #fff;
 }
 
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#prev,#next,#play{
+    color: white;
+}
+
+ul li:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+#buttons:hover{
+    transform: scale(1.1);
+}
 
