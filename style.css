@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    width: 400px;
+}
+
+.card-footer,.volume-container,.times{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#volume{
+    margin-right: 10px;
+}
+
+#buttons{
+    color: #fff;
+}
+
+
